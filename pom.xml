@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+		http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.scijava</groupId>
+		<artifactId>pom-scijava</artifactId>
+		<version>29.0.0-beta-3</version>
+	</parent>
+
+	<groupId>net.imglib2</groupId>
+	<artifactId>imglib2-sandbox</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<properties>
+		<enforcer.skip>true</enforcer.skip>
+		<imglib2.version>5.10.0-SNAPSHOT</imglib2.version>
+	</properties>
+	
+	<repositories>
+		<repository>
+			<id>scijava.public</id>
+			<url>https://maven.scijava.org/content/groups/public</url>
+		</repository>
+	</repositories>
+	
+	<dependencies>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>bigdataviewer-vistools</artifactId>
+		</dependency>
+	</dependencies>
+</project>
